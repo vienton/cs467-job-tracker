@@ -1,0 +1,36 @@
+.navbar { 
+    width: 40px;
+    width: 100%;
+    background-color: 'black';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #414141;
+    color: #EB8258;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    list-style-type: none;
+    margin-right: 150px;
+}
+
+.navbar ul li {
+    margin: 3px;
+    padding: 5px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-image: url("https://randomuser.me/api/portraits/men/75.jpg");
+    background-position: 87px 100px;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    margin-left: 30px;
+}

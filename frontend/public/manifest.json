@@ -1,0 +1,8 @@
+{
+  "short_name": "Trackr",
+  "name": "Trackr: Application for tracking your job app process",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

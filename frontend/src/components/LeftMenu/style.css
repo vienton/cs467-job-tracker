@@ -1,0 +1,41 @@
+.left-menu {
+    width: 30%;
+    height: 60%;
+    padding-top: 20px;
+}
+
+.left-menu ul {
+    font-weight: bold;
+    margin: 20px 40px; 
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.left-menu ul li:not(.active) {
+    color: #717171;
+}
+
+.left-menu ul li {
+    margin: 10px 0px;
+    font-size: 18;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.hide { 
+    visibility: hidden;
+}
+
+.sublist li {
+    text-transform: capitalize;
+}
+.sublist .active {
+    font-weight: normal;
+}
+
+.sublist:not(.active) {
+    font-weight: normal;
+    color: 747474;
+}
